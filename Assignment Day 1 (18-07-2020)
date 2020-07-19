@@ -1,7 +1,8 @@
 Day-1 Assignment
 
 1. What is your understanding of Blockchain?
-Blockchain is a technology that merges distributed database and cryptography. It is in place to ensure that data cannot be modified. It cancels the need for a middle party, hence ensuring transparency and building trust in the community.
+Blockchain is a technology that merges distributed database and cryptography. It is in place to ensure that data cannot be modified. 
+It cancels the need for a middle party, hence ensuring transparency and building trust in the community.
 
 2. What is the core problem Blockchain trying to solve?
 core problems:
@@ -23,4 +24,9 @@ c. Previous block signature or fingerprint
 d. Mining Key
 
 5. How has the verifiability of Blockchain been attained?
-Whenever a new block is made, it contains some data and the fingerprint of the previous block, along with the mining key. Now, several copies of this block are distributed to lots of peers over the network. Each copy of block will have the same fingerprint. If I want to verify whether Block A's data is proper or not, I can simply compare the fingerprint of Block A with multiple other peers that have the copy of the same block. In case, the data in my block has been tampered with, the fingerprint associated with the copy changes. So one of the hundreds of other peers that still have the original, unchanged data will compare their fingerprint with the fingerprint of my block (in which data is changed) and realize that the data has been changed. Hence, I am able to verify whether I have the correct data or not.
+Whenever a new block is made, it contains some data and the fingerprint of the previous block, along with the mining key. 
+Now, several copies of this block are distributed to lots of peers over the network. Each copy of block will have the same fingerprint. 
+If I want to verify whether Block A's data is proper or not, I can simply compare the fingerprint of Block A with multiple other peers that 
+have the copy of the same block. In case, the data in my block has been tampered with, the fingerprint associated with the copy changes. 
+So one of the hundreds of other peers that still have the original, unchanged data will compare their fingerprint with the fingerprint of
+my block (in which data is changed) and realize that the data has been changed. Hence, I am able to verify whether I have the correct data or not.
